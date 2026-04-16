@@ -18,7 +18,7 @@ Kenneth B. Vernon [Scientific Computing and Imaging Institute, University of Uta
 :::: {.github}
 {{< iconify fa7-regular:calendar >}} `{r} format(Sys.Date(), "%Y-%m-%d")`
 
-{{< iconify fa:github >}} [kbvernon/habitat-suitability](https://github.com/kbvernon/habitat-suitability)
+{{< iconify fa:github >}} [kbvernon/west-2026-habitat-suitability](https://github.com/kbvernon/west-2026-habitat-suitability)
 
 {{< iconify pixelarticons:music >}} [Home - LCD Soundsystem](https://youtu.be/ETDCbQUYiAQ?si=5631bkt8O14pl4jS)
 ::::

@@ -10,7 +10,7 @@ Badge](https://img.shields.io/badge/Quarto-Presentation-74AADB?style=social&logo
 <!-- badges: end -->
 
 **Slides:**
-https://kbvernon.github.io/habitat-suitability/presentations/2026-west-speaker-series
+https://kbvernon.github.io/west-2026-habitat-suitability/#/one-theory-many-models-of-habitat-suitability
 
 You can press "F" to enter Full Screen mode and "S" to enter Speaker view. The
 hamburger button ☰ at the bottom left of the screen opens a menu that allows you
