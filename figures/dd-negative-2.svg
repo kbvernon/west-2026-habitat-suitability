@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="939.84" height="380" viewBox="116.66 95.5 939.84 380">
+  <style>
+    .sg, .sd { fill: none; stroke-linecap: round; stroke-miterlimit: 10; }
+    .sg { stroke: #888; }
+    .sg-dash { stroke-dasharray: 6 6; }
+    .sd { stroke: #222; stroke-width: 2px; }
+    .fd { fill: #222; }
+    .tk  { fill: #222; font-family: 'KaTeX_Main-Regular', KaTeX_Main; font-size: 24px; }
+    .tkg { fill: #888; font-family: 'KaTeX_Main-Regular', KaTeX_Main; font-size: 24px; }
+    .tki { fill: #888; font-family: 'KaTeX_Math-Italic', KaTeX_Math; font-style: italic; font-size: 24px; }
+    .tn  { fill: #888; font-family: NotoSans-Regular, 'Noto Sans'; font-variation-settings: 'wght' 400, 'wdth' 100; font-size: 24px; }
+  </style>
+  <defs>
+    <circle id="dot" r="5.4" class="fd"/>
+  </defs>
+  <g>
+    <polyline class="sg" points="500.5 450.5 151.1 450.5 150.5 449.9 150.5 100.5"/>
+    <polyline class="sg" points="1051.5 450.5 702.1 450.5 701.5 449.9 701.5 100.5"/>
+    <text class="tki" text-anchor="end" x="140.5" y="123.6">E</text>
+    <text class="tki" text-anchor="end" x="500.5" y="470.5">n</text>
+    <text class="tki" text-anchor="end" x="1051.5" y="470.5">n</text>
+    <text class="tn" text-anchor="end" x="691.5" y="124">Suitability</text>
+    <text class="tkg" text-anchor="end" x="691.5" y="158.7">[AP]</text>
+    <text class="tki" text-anchor="end" x="691.5" y="221.2">B</text>
+    <path class="sg" d="M162.2,439.22c6.65-27.14,32.02-116.17,118.57-183.82,91.73-71.77,190.86-71.5,217.51-70.53"/>
+    <line class="sg sg-dash" x1="701.5" y1="211.6" x2="1051.5" y2="211.6"/>
+  </g>
+  <!-- s1: dot + dashed line to n1 (persists) -->
+  <line class="sd sg-dash" x1="701.5" y1="211.6" x2="773.3" y2="249.7"/>
+  <use href="#dot" x="773.3" y="249.7"/>
+  <!-- s2: dot + dashed line to n2 -->
+  <line class="sd sg-dash" x1="773.3" y1="249.7" x2="870.3" y2="307.6"/>
+  <use href="#dot" x="870.3" y="307.6"/>
+  <!-- g2: AP/MP tangent lines at n2 -->
+  <line class="sd" x1="162.2" y1="439.22" x2="324.9" y2="226.3"/>
+  <line class="sd" x1="162.2" y1="314.6"  x2="324.9" y2="226.3"/>
+  <text class="tk" x="290.1" y="294.7">AP</text>
+  <text class="tk" x="224.1" y="249.9">MP</text>
+</svg>

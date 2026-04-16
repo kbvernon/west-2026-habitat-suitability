@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="310">
+  <defs>
+    <rect id="cell" width="50" height="50" rx="4"/>
+  </defs>
+  <!-- fragment 1: A=1 -->
+  <use href="#cell" x="5"   y="220" class="cell"/>
+  <!-- fragment 2: A=5 -->
+  <use href="#cell" x="5"   y="165" class="cell fragment fade-in" data-fragment-index="2"/>
+  <use href="#cell" x="5"   y="110" class="cell fragment fade-in" data-fragment-index="2"/>
+  <use href="#cell" x="60"  y="220" class="cell fragment fade-in" data-fragment-index="2"/>
+  <use href="#cell" x="60"  y="165" class="cell fragment fade-in" data-fragment-index="2"/>
+  <!-- fragment 3: A=7, B=2 -->
+  <use href="#cell" x="5"   y="55"  class="cell fragment fade-in" data-fragment-index="3"/>
+  <use href="#cell" x="60"  y="110" class="cell fragment fade-in" data-fragment-index="3"/>
+  <use href="#cell" x="160" y="220" class="cell fragment fade-in" data-fragment-index="3"/>
+  <use href="#cell" x="215" y="220" class="cell fragment fade-in" data-fragment-index="3"/>
+  <!-- fragment 4: A=9, B=5, C=2 -->
+  <use href="#cell" x="5"   y="0"   class="cell fragment fade-in" data-fragment-index="4"/>
+  <use href="#cell" x="60"  y="55"  class="cell fragment fade-in" data-fragment-index="4"/>
+  <use href="#cell" x="160" y="165" class="cell fragment fade-in" data-fragment-index="4"/>
+  <use href="#cell" x="160" y="110" class="cell fragment fade-in" data-fragment-index="4"/>
+  <use href="#cell" x="215" y="165" class="cell fragment fade-in" data-fragment-index="4"/>
+  <use href="#cell" x="315" y="220" class="cell fragment fade-in" data-fragment-index="4"/>
+  <use href="#cell" x="370" y="220" class="cell fragment fade-in" data-fragment-index="4"/>
+  <!-- habitat rules and labels -->
+  <line x1="0"   x2="115" y1="278" y2="278" class="habitat-rule"/>
+  <line x1="155" x2="270" y1="278" y2="278" class="habitat-rule"/>
+  <line x1="310" x2="425" y1="278" y2="278" class="habitat-rule"/>
+  <text x="57"  y="303" class="habitat-label">A</text>
+  <text x="212" y="303" class="habitat-label">B</text>
+  <text x="367" y="303" class="habitat-label">C</text>
+</svg>

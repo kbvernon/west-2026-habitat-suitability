@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410.24" height="172.44" viewBox="0 0 410.24 172.44">
+  <style>
+    .arrow, .arrow-dashed {
+      fill: none;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    .arrow { stroke: #222; }
+    .arrow-dashed {
+      stroke: #888;
+      stroke-dasharray: 6 6;
+    }
+    .box {
+      fill: #eee;
+      stroke: #888;
+      stroke-miterlimit: 10;
+    }
+    .arrowhead { fill: #222; }
+    .arrowhead-dashed { fill: #888; }
+    .label {
+      fill: #222;
+      font-family: "Noto Sans", "Source Sans Pro", Helvetica, sans-serif;
+      font-size: 28px;
+      font-variation-settings: 'wght' 400, 'wdth' 100;
+    }
+    .kern { letter-spacing: -0.02em; }
+  </style>
+  <g>
+    <line class="arrow-dashed" x1="211.49" y1="25.43" x2="296.77" y2="25.43"/>
+    <polygon class="arrowhead-dashed" points="292.56 30.99 294.92 25.43 292.56 19.88 305.72 25.43 292.56 30.99"/>
+  </g>
+  <g>
+    <line class="arrow" x1="323.01" y1="114.17" x2="343.99" y2="65.39"/>
+    <polygon class="arrowhead" points="347.43 71.46 343.25 67.09 337.22 67.07 347.52 57.17 347.43 71.46"/>
+  </g>
+  <g>
+    <line class="arrow" x1="130.8" y1="57.57" x2="151.78" y2="106.36"/>
+    <polygon class="arrowhead" points="145.01 104.68 151.04 104.65 155.22 100.29 155.31 114.58 145.01 104.68"/>
+  </g>
+  <rect class="box" x=".5" y=".5" width="201.28" height="48.76" rx="5" ry="5"/>
+  <text class="label" transform="translate(12.14 33.6)"><tspan x="0" y="0">S is playing G.</tspan></text>
+  <rect class="box" x="97.14" y="123.18" width="256.11" height="48.76" rx="5" ry="5"/>
+  <text class="label" transform="translate(109.75 156.6)"><tspan x="0" y="0">RULE: if A, then </tspan><tspan x="207.5" y="0">B</tspan><tspan x="225.42" y="0">.</tspan></text>
+  <rect class="box" x="315.43" y=".5" width="94.31" height="48.76" rx="5" ry="5"/>
+  <text class="label" transform="translate(324.75 33.6)"><tspan x="0" y="0">G</tspan><tspan class="kern" x="20.38" y="0">O</tspan><tspan x="41.69" y="0">AL</tspan></text>
+</svg>

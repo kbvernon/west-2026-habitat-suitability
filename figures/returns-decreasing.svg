@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="345" viewBox="75 90 335 345">
+  <polyline class="axis" points="399.5 400.5 99.5 400.5 99.5 100.5"/>
+  <text class="label-axis" x="88" y="122">E</text>
+  <text class="label-axis" x="390" y="423">n</text>
+  <path class="curve" d="M110.5,389.5c5.53-22.17,34.67-129.06,139.26-189.57,61.1-35.35,120.2-38.82,149.74-38.43"/>
+  <g class="fragment fade-in-then-out" data-fragment-index="1">
+    <line class="line" x1="111" y1="390" x2="143" y2="309"/>
+    <line class="line" x1="100" y1="385" x2="143" y2="309"/>
+    <text class="label-data" x="115" y="388">AP</text>
+    <text class="label-data" x="100" y="381">MP</text>
+  </g>
+  <g class="fragment fade-in-then-out" data-fragment-index="2">
+    <line class="line" x1="111" y1="390" x2="196" y2="241"/>
+    <line class="line" x1="100" y1="334" x2="196" y2="241"/>
+    <text class="label-data" x="115" y="388">AP</text>
+    <text class="label-data" x="100" y="330">MP</text>
+  </g>
+  <g class="fragment fade-in-then-out" data-fragment-index="3">
+    <line class="line" x1="111" y1="390" x2="366" y2="163"/>
+    <line class="line" x1="111" y1="188" x2="366" y2="163"/>
+    <text class="label-data" x="115" y="388">AP</text>
+    <text class="label-data" x="115" y="184">MP</text>
+  </g>
+</svg>
